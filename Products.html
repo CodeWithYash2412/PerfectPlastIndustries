@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PPI --> PRODUCTS</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+    body {
+        overflow-x: hidden;
+    }
+    
+    .navbar {
+        z-index: 20;
+    }
+    
+    .zoomHover {
+        transition: transform .2s;
+        border: 1px black solid;
+    }
+    
+    .zoomHover:hover {
+        transform: scale(1.4);
+        z-index: 99;
+        border: none;
+    }
+    
+    .nav-item {
+        margin: 0 5px;
+        padding: 2px;
+    }
+    
+    .list-unstyled a {
+        color: blackss
+    }
+    
+    .active,
+    .nav-item:hover {
+        border: 1px white solid;
+        border-radius: 10px;
+        transition: all 700ms;
+    }
+    
+    .bg-factory {
+        background: rgba(0, 0, 0, 0.6) url(https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/factory%2F1.jpg?alt=media&token=15dbd0ed-b756-40dc-b4e1-9aecd94e88be);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bg-factory h1 {
+        animation-name: factoryMain;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        font-family: 'Pattaya', sans-serif;
+        /* text-transform: uppercase; */
+    }
+    
+    @media (max-width: 360px) {
+        .bg-factory h1 {
+            font-size: 50px;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .bg-factory h1 {
+            font-size: 40px;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100">
+        <a class="navbar-brand text-light h3" href="index.html">Perfect Plast Industries</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+          
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item  ">
+                    <a class="nav-link text-white" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="/factory.html">Factory</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="/Products.html">Products</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/aboutus.html">About US</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="/inquiry.html">Inquiry</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="container-fluid bg-factory">
+        <h1 class="text-light display-4">Product Photos</h1>
+    </section>
+
+    <section class="container border border-dark my-3 w-100 px-2 py-2" style="height: max-content">
+        <div class="alert alert-info text-center h5" role="alert">
+            HDPE BOTTLES
+        </div>
+        <hr class="bg-dark">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2  zoomHover">
+                <div class="thumbnail d-flex " style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FBSF_Shape-removebg.png?alt=media&token=6ddc41b0-3b1c-4e71-9992-f3ad6b04b56b" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">BSF Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FDraggon_Bottel-removebg.png?alt=media&token=c5e438c2-58d8-4154-b37f-1ece0089684c" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Draggon Bottle</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FHumic_Bottle-removebg.png?alt=media&token=4edb79bb-58a7-4ec2-a163-f79b2843cfa6" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Humic Bottle</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FLmida_Shape-removebg.png?alt=media&token=8317182a-d3aa-482e-91ae-6815d7dd1064" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Lmida Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FMono_Shape-removebg.png?alt=media&token=bea7e30e-a5df-47c0-afca-e6332215b3bf" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Mono Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FMono_Shape_Printing-removebg.png?alt=media&token=224bffd5-61db-4ad5-91f5-fc10e1f6b80c" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Mono Shape Printed</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FNew_Mono_Shape-removebg.png?alt=media&token=d49d674d-3a8f-4e26-9217-1553fcf29001" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">New Mono Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FPendi_Shape-removebg.png?alt=media&token=c01eba0c-dcf3-4f43-a4fc-be0ed055e9b7" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Pandi Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FPendi_Shape_Printing-removebg.png?alt=media&token=15cbeaa7-c0f1-418b-9309-38c7da1e1825" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Pendi Shape Printed</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FPera_Shape-removebg.png?alt=media&token=10a68341-5b0c-440d-b636-01d233f64c61" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Pera Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FRegent_Shape-removebg.png?alt=media&token=4a5e13ef-ef6b-43dd-93ba-9ec78aba7d5a" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Regent Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FRoundup_Shape-removebg.png?alt=media&token=55f38b79-f711-4bed-9c0d-bd954ea99aae" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Roundup Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FTotal_Blue_Shape-removebg.png?alt=media&token=5cc668d6-126f-45d1-b27a-9b3ba4975733" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Total Blue Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FTotal_White_Shape-removebg.png?alt=media&token=27541e30-36d4-472f-a04a-dccaccd08586" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Total White Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FHDPE%2FTriangle_Shape-removebg.png?alt=media&token=d51baf04-1935-431e-ac9a-6e74de892249" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Triangle Shape</div>
+            </div>
+        </div>
+        <div class="alert alert-info text-center h5 mt-3 mb-2" role="alert">
+            PET BOTTLES
+        </div>
+        <hr class="bg-dark">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FPET%2FLarge_Pet_Bottles-removebg.png?alt=media&token=f79cee7e-bded-4b7c-bdc0-102cb7b0a4c5" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Large PET Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FPET%2FMeasuring_Cup-removebg.png?alt=media&token=1e24fe1b-bd11-4cbf-91ce-354dd470d1b2" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Measuring Cup</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FPET%2FMedium_Pet_Bottles-removebg.png?alt=media&token=13ed5147-f979-4997-aa10-004e2f0c852d" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Medium PET Shape</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FPET%2FPet_White_Bottle-removebg.png?alt=media&token=50572d60-0e5f-4a8b-94d5-a8b3624372da" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">PET White Bottle</div>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center flex-column my-3 mx-2 zoomHover">
+                <div class="thumbnail d-flex" style="height: 150px;">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/ppitestproject.appspot.com/o/bottles%2FPET%2Fsmall_pet_bottles-removebg.png?alt=media&token=32ca9440-e470-4660-b8cb-0f9c9b2fa608" width="200" class="my-2 mx-auto" alt="">
+                </div>
+                <div class="bottleName mx-auto my-2">Small PET Shape</div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small  pt-4" style="background-color: aqua;">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Perfect Plast Industries</h5>
+                    <p>Indian Plastic Bottel Manufacturer</p>
+                    <img src="/My Post.png" alt="" width="200" height="100" ">
+
+
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3 ">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3 ">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase ">WEBSITE MAP</h5>
+
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a  href="/index.html ">HOME</a>
+                        </li>
+                        <li>
+                            <a  href="/factory.html ">FACTORY</a>
+                        </li>
+                        <li>
+                            <a  href="/Products.html ">PRODUCTS</a>
+                        </li>
+                        <li>
+                            <a  href="/aboutus.html ">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a  href="/inquiry.html ">INQUIRY</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3 ">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase ">Links</h5>
+
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a  href="#! ">Facebook</a>
+                        </li>
+                        <li>
+                            <a  href="#! ">Instagram</a>
+                        </li>
+                        <li>
+                            <a  href="#! ">LinkdIn</a>
+                        </li>
+                        <li>
+                            <a  href="#! ">Twitter</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-dark " style="color: aqua; ">© 2020 Copyright:
+            <a href="/index.html " style="color: aqua; "> PerfectPlastIndustries.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</body>
